@@ -1,5 +1,5 @@
 # Python Obfuscator Template
-A simple template for making an obfuscator for python \n
+A simple template for making an obfuscator for python <br>
 It provides very little protection because this is just a template/base
 # Features
 - Gui
