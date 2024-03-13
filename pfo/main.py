@@ -3,6 +3,7 @@ import os
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 from transformers import IntegerTransformer, Base64Transformer, CompressTransformer
+import py_compile
 
 def obfuscate():
     file_path = file_entry.get()
@@ -23,6 +24,8 @@ def obfuscate():
             with open(output_file, "w") as out:
                 out.write(transformed)
             output_text.insert(tk.END, "Wrote to " + output_file + "\n")
+            py_compile.compile(output_file, output_file + "c")
+            output_text.insert(tk.END, "Compiled to " + output_file + "c\n")
     except Exception as e:
         messagebox.showerror("Error", str(e))
 
