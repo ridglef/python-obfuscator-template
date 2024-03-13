@@ -5,6 +5,7 @@ It provides very little protection because this is just a template/base
 - Gui
 - Integer Xor encryption
 - Base64 + Zlib compression
+- Pyc compiling
 # Sample
 Before:
 ```py
@@ -17,5 +18,7 @@ if __name__ == '__main__':
 ```
 After:
 ```py
-exec(__import__('base64').b64decode("ZXhlYyhfX2ltcG9ydF9fKCd6bGliJykuZGVjb21wcmVzcyhiJ3hceGRhXHhjYkhceGNkXHhjOVx4YzlXXHhiMFVQd1x4Y2NceGNkTy8tVlx4ZTcqXHgwMnJMXHJNLUxcci0sXHgxNFx4ZTJceDE0TFx4OGRceDhjXHhjZE0sXHhjZE1ceGI4Mlx4ZDNceDE0XHhlMlx4ZTNceGYzXHgxMnNTXHhlM1x4ZTNceDE1bFx4ODFceGVhXHhlM1x4ZTNzXHgxMzNceGYzXHhlMlx4ZTNceGQ1XHhhZFx4YjhceDE0XHg4MFx4YTBceGEwKDNceGFmRCNceDAzZFx4OWEmXHg5MkBceDkxJlx4MDAhZlx4MWJEJykp"))
+Ë
+
+#šñe¸☺ã♣ó>—☻e☻e☺d«☺j♣d☺«☺«☺☺y☻)♥Ú♠base64a
 ```
